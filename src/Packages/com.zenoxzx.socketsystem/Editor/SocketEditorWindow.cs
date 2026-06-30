@@ -74,7 +74,7 @@ namespace ZenoxZX.SocketSystem.Editor
 
         private bool IsHumanoid => m_Animator != null && m_Animator.isHuman;
 
-        [MenuItem("ZenoxZX/Socket System/Socket Editor")]
+        [MenuItem("Tools/ZenoxZX/Socket System/Socket Editor")]
         private static void Open()
         {
             GetWindow<SocketEditorWindow>("Socket Editor");
