@@ -821,7 +821,7 @@ namespace ZenoxZX.SocketSystem.Editor
             if (m_RigRoot != null)
             {
                 EditorGUILayout.LabelField("Character Name", m_Source != null ? m_Source.name : "-");
-                EditorGUILayout.LabelField("Rig Tipi", IsHumanoid ? "Humanoid" : "Generic");
+                EditorGUILayout.LabelField("Rig Type", IsHumanoid ? "Humanoid" : "Generic");
                 EditorGUILayout.LabelField("Bone Count", (m_BoneNames != null ? m_BoneNames.Length : 0).ToString());
 
                 if (IsHumanoid)
@@ -975,7 +975,7 @@ namespace ZenoxZX.SocketSystem.Editor
             using (new EditorGUILayout.HorizontalScope())
             {
                 EditorGUILayout.LabelField("Sockets", EditorStyles.boldLabel);
-                if (GUILayout.Button("+ Ekle", GUILayout.Width(70f)))
+                if (GUILayout.Button("+ Add", GUILayout.Width(70f)))
                     AddSocket();
             }
 
