@@ -106,13 +106,12 @@ namespace ZenoxZX.SocketSystem.Editor
 
         protected override void OnCloseStage()
         {
+            Selection.activeObject = null;
             WriteBackToSet();
             base.OnCloseStage();
             FocusEditorWindowDeferred();
         }
 
-        // Stage çıkışında Unity, Scene View'i yeniden odaklar; window'a odağı onun ARDINDAN
-        // vermek için iki frame ertelenir (N+2). Tek delayCall yetmiyor.
         private static void FocusEditorWindowDeferred()
         {
             EditorApplication.delayCall += SecondFrame;
