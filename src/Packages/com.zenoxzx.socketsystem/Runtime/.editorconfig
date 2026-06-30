@@ -1,0 +1,5 @@
+# Rider/ReSharper: do not append folder names to the namespace under this asmdef root.
+# All files use only the rootNamespace (ZenoxZX.SocketSystem); subfolders like "Scripts"
+# must not leak into the namespace.
+[*.cs]
+resharper_namespace_provider = false

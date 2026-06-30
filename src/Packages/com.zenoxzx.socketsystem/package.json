@@ -1,0 +1,19 @@
+{
+  "name": "com.zenoxzx.socketsystem",
+  "version": "1.0.0",
+  "displayName": "Socket System",
+  "description": "Rig socket management: define named sockets on rig bones for attaching objects (weapons, props), IK targets, or measurement points. Includes a 3D socket editor with embedded preview and a Scene View editing stage, rig identity validation via bone hashing, and a runtime binder.",
+  "unity": "2022.3",
+  "category": "Editor Extensions",
+  "keywords": [
+    "socket",
+    "rig",
+    "bone",
+    "attachment",
+    "editor"
+  ],
+  "author": {
+    "name": "Aygün Özgür",
+    "url": "https://github.com/ZenoxZX"
+  }
+}
